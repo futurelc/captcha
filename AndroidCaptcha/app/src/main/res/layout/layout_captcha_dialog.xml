@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="28dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/input_captcha_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="@color/black1"
+        android:layout_marginTop="24dp"
+        android:text="@string/dialog_captcha_input_prompt"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/captcha_error_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="#FF5454"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/captcha_send_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/black6"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.future.captcha.TimerTextView
+        android:id="@+id/captcha_timer"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/gray9"
+        android:textSize="14dp"
+        android:gravity="center"/>
+
+    <com.future.captcha.CaptchaInputView
+        android:id="@+id/captcha_input_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/transparent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="17dp"
+        android:maxLength="4"
+        android:inputType="number"/>
+
+</LinearLayout>

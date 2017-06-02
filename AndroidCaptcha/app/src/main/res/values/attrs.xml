@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordInputView">
+        <attr name="captchaBorderWidth" format="dimension"/>
+        <attr name="captchaBorderColor" format="color"/>
+        <attr name="captchaBorderRadius" format="dimension"/>
+        <attr name="captchaLength" format="integer"/>
+        <attr name="captchaWidth" format="dimension"/>
+        <attr name="captchaColor" format="color"/>
+        <attr name="captchaRadius" format="dimension"/>
+        <attr name="captchaViewSize" format="dimension"/>
+        <attr name="captchaTextSize" format="dimension"/>
+        <attr name="captchaViewPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

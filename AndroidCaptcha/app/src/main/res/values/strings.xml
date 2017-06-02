@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">无埋点开关程序</string>
+
+    <string name="dialog_captcha_input_prompt">输入验证码</string>
+    <string name="dialog_captcha_sent_to">验证码已发送至%1s</string>
+    <string name="dialog_captcha_resent">重新发送</string>
+</resources>

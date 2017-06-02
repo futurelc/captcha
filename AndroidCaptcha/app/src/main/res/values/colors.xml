@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gradD">#DDDDDD</color>
+    <color name="black1">#1B2E43</color>
+    <color name="black6">#666666</color>
+    <color name="gray9">#999999</color>
+
+
+    <color name="default_ev_border_color">#DDDDDD</color>
+    <color name="select_border_color">#FF6200</color>
+    <color name="default_ev_password_color">#1B2E43</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+</resources>
